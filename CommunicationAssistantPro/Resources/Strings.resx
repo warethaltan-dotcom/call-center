@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- Application Strings -->
+  <data name="AppTitle" xml:space="preserve">
+    <value>Communication Assistant Pro</value>
+  </data>
+  <data name="AppSubtitle" xml:space="preserve">
+    <value>نظام الاتصالات المتكامل</value>
+  </data>
+  <data name="AppCompany" xml:space="preserve">
+    <value>Basra Delight Group - البصرة، العراق</value>
+  </data>
+  
+  <!-- Login Strings -->
+  <data name="LoginTitle" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="UsernameLabel" xml:space="preserve">
+    <value>اسم المستخدم / رقم الموظف</value>
+  </data>
+  <data name="PasswordLabel" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="ExtensionLabel" xml:space="preserve">
+    <value>الامتداد الداخلي (اختياري)</value>
+  </data>
+  <data name="RememberMeLabel" xml:space="preserve">
+    <value>تذكرني في المرة القادمة</value>
+  </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="SettingsButton" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  
+  <!-- Dashboard Strings -->
+  <data name="DashboardTitle" xml:space="preserve">
+    <value>لوحة التحكم</value>
+  </data>
+  <data name="TotalCallsLabel" xml:space="preserve">
+    <value>إجمالي المكالمات اليوم</value>
+  </data>
+  <data name="IncomingCallsLabel" xml:space="preserve">
+    <value>المكالمات الواردة</value>
+  </data>
+  <data name="OutgoingCallsLabel" xml:space="preserve">
+    <value>المكالمات الصادرة</value>
+  </data>
+  <data name="OnlineUsersLabel" xml:space="preserve">
+    <value>المستخدمون المتصلون</value>
+  </data>
+  <data name="CallStatisticsLabel" xml:space="preserve">
+    <value>إحصائيات المكالمات</value>
+  </data>
+  <data name="UserStatusLabel" xml:space="preserve">
+    <value>حالة المستخدمين</value>
+  </data>
+  <data name="RecentActivitiesLabel" xml:space="preserve">
+    <value>النشاطات الأخيرة</value>
+  </data>
+  
+  <!-- Navigation Strings -->
+  <data name="DashboardNav" xml:space="preserve">
+    <value>لوحة التحكم</value>
+  </data>
+  <data name="CallsNav" xml:space="preserve">
+    <value>إدارة المكالمات</value>
+  </data>
+  <data name="UsersNav" xml:space="preserve">
+    <value>إدارة المستخدمين</value>
+  </data>
+  <data name="ReportsNav" xml:space="preserve">
+    <value>التقارير</value>
+  </data>
+  <data name="SettingsNav" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="AdminSectionNav" xml:space="preserve">
+    <value>إدارة النظام</value>
+  </data>
+  <data name="LogoutButton" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  
+  <!-- Settings Strings -->
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>الإعدادات العامة</value>
+  </data>
+  <data name="PBXSettings" xml:space="preserve">
+    <value>إعدادات PBX</value>
+  </data>
+  <data name="CallFileSettings" xml:space="preserve">
+    <value>ملف حالة المكالمات</value>
+  </data>
+  <data name="SecuritySettings" xml:space="preserve">
+    <value>الأمان</value>
+  </data>
+  <data name="TestConnection" xml:space="preserve">
+    <value>اختبار الاتصال</value>
+  </data>
+  
+  <!-- Call Status Strings -->
+  <data name="StatusIdle" xml:space="preserve">
+    <value>متاح</value>
+  </data>
+  <data name="StatusBusy" xml:space="preserve">
+    <value>مشغول</value>
+  </data>
+  <data name="StatusRinging" xml:space="preserve">
+    <value>يرن</value>
+  </data>
+  <data name="StatusOnCall" xml:space="preserve">
+    <value>في مكالمة</value>
+  </data>
+  <data name="StatusOffline" xml:space="preserve">
+    <value>غير متصل</value>
+  </data>
+  
+  <!-- Connection Status Strings -->
+  <data name="Connected" xml:space="preserve">
+    <value>متصل</value>
+  </data>
+  <data name="Disconnected" xml:space="preserve">
+    <value>غير متصل</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>جاري الاتصال...</value>
+  </data>
+  <data name="ConnectionFailed" xml:space="preserve">
+    <value>فشل الاتصال</value>
+  </data>
+  
+  <!-- User Roles -->
+  <data name="RoleEmployee" xml:space="preserve">
+    <value>موظف</value>
+  </data>
+  <data name="RoleSupervisor" xml:space="preserve">
+    <value>مشرف</value>
+  </data>
+  <data name="RoleAdmin" xml:space="preserve">
+    <value>مدير</value>
+  </data>
+  <data name="RoleSuperAdmin" xml:space="preserve">
+    <value>مدير عام</value>
+  </data>
+  
+  <!-- Messages -->
+  <data name="LoginSuccessful" xml:space="preserve">
+    <value>تم تسجيل الدخول بنجاح</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>فشل تسجيل الدخول</value>
+  </data>
+  <data name="LogoutSuccessful" xml:space="preserve">
+    <value>تم تسجيل الخروج بنجاح</value>
+  </data>
+  <data name="SettingsSaved" xml:space="preserve">
+    <value>تم حفظ الإعدادات بنجاح</value>
+  </data>
+  <data name="SettingsLoadError" xml:space="preserve">
+    <value>خطأ في تحميل الإعدادات</value>
+  </data>
+  <data name="NetworkError" xml:space="preserve">
+    <value>خطأ في الشبكة</value>
+  </data>
+  <data name="DatabaseError" xml:space="preserve">
+    <value>خطأ في قاعدة البيانات</value>
+  </data>
+  
+  <!-- Call Events -->
+  <data name="CallReceived" xml:space="preserve">
+    <value>مكالمة واردة</value>
+  </data>
+  <data name="CallAnswered" xml:space="preserve">
+    <value>تم الرد على المكالمة</value>
+  </data>
+  <data name="CallEnded" xml:space="preserve">
+    <value>انتهت المكالمة</value>
+  </data>
+  <data name="CallMissed" xml:space="preserve">
+    <value>مكالمة فائتة</value>
+  </data>
+  
+  <!-- Error Messages -->
+  <data name="GenericError" xml:space="preserve">
+    <value>حدث خطأ غير متوقع</value>
+  </data>
+  <data name="ValidationError" xml:space="preserve">
+    <value>بيانات غير صحيحة</value>
+  </data>
+  <data name="PermissionError" xml:space="preserve">
+    <value>ليس لديك صلاحية للوصول</value>
+  </data>
+  <data name="TimeoutError" xml:space="preserve">
+    <value>انتهت مهلة الوقت</value>
+  </data>
+</root>
